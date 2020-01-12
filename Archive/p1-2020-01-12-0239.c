@@ -33,7 +33,7 @@ int main()
                 fputc(*buf, fs);
                 fputc(0x20, fs);
                 fputc(*(buf + 1), fs);
-                fputc(0x0a, fs);
+                fputc(0xA, fs);
 
                 fclose(fs);
             }
