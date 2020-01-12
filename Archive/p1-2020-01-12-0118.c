@@ -2,10 +2,10 @@
 
 int main()
 {
-    int number;
+    int num;
 
-    scanf("%d", &number);
-    printf("%d %d\n", number / 10, number % 10);
+    scanf("%d", &num);
+    printf("%d %d\n", num / 10, num % 10);
 
     return 0;
 }

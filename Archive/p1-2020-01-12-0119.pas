@@ -1,7 +1,7 @@
 program problem_1;
 var
-    number: integer;
+    num: integer;
 begin
-    read(number);
-    writeln(number div 10, ' ', number mod 10);
+    read(num);
+    writeln(num div 10, ' ', num mod 10);
 end.
