@@ -13,8 +13,10 @@
 int main()
 {
 #ifndef DBG_E_OLYMP
+
     freopen("input", "r", stdin);
     freopen("output", "w", stdout);
+
 #endif
     char buf[BUFSIZE];
     memset(buf, 0, BUFSIZE);
@@ -34,8 +36,10 @@ int main()
         printf("%c %c\n", *buf, *(buf + 1));
 
 #ifndef DBG_E_OLYMP
+
     fclose(stdin);
     fclose(stdout);
+
 #endif
 
     return EXIT_SUCCESS;
