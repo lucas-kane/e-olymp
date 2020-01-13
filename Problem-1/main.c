@@ -3,6 +3,7 @@
 
 int main()
 {
+    // Зручно використовувати для налагодження рішень умовну директиву DEBUG
 #ifndef DEBUG
     freopen("input", "r", stdin);
     freopen("output", "w", stdout);
