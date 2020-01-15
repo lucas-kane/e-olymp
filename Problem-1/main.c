@@ -1,13 +1,19 @@
+/* 
+ * ПРОСТА ЗАДАЧА?
+ * Програма зчитує двоцифрове число і виводить через пропуск кожну цифрру окремо. 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    // Зручно використовувати для налагодження рішень умовну директиву DEBUG
-#ifndef DEBUG
+    // Для налагодження рішень зручно використовувати умовну директиву DEBUG,
+    // потрібно лише оголосити 
+#define DEBUG
+#if !defined DEBUG
     freopen("input", "r", stdin);
     freopen("output", "w", stdout);
-#endif
+#endif 
 
     int n;
     scanf("%d", &n);

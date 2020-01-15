@@ -2,15 +2,7 @@
 
 int main()
 {
-    puts("Begin PROGRAM!!!");
-
-#ifdef DEBUG
-
-    puts("\tDebug info...");
-
-#endif
-
-    puts("End Program!!!");
+    printf("\7");
 
     return 0;
 }

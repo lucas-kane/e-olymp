@@ -2,18 +2,18 @@
 
 int main()
 {
-    int num = 0;
+    int n = 0;
 
     FILE *fs = fopen("input", "r");
     if (fs)
     {
-        fscanf(fs, "%d", &num);
+        fscanf(fs, "%d", &n);
         fclose(fs);
 
-        if (10 <= num && num <= 99)
+        if (10 <= n && n <= 99)
         {
             fs = fopen("output", "w");
-            fprintf(fs, "%d %d\n", num / 10, num % 10);
+            fprintf(fs, "%d %d\n", n / 10, n % 10);
             fclose(fs);
         }
     }
