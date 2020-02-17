@@ -7,14 +7,6 @@
 
 int main()
 {
-    // Для налагодження рішень зручно використовувати умовну директиву DEBUG,
-    // потрібно лише оголосити 
-#define DEBUG
-#if !defined DEBUG
-    freopen("input", "r", stdin);
-    freopen("output", "w", stdout);
-#endif 
-
     int n;
     scanf("%d", &n);
 
